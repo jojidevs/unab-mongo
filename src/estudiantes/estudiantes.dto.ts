@@ -3,6 +3,8 @@
 export class EstudiantesDTO {
     
     readonly Nombre: string;
-    readonly Direccion: string;
-    readonly Telefono: number;
+    readonly Genero: string;
+    readonly FechaNacimiento: string;
+    readonly Carrera: string;
+    
   }

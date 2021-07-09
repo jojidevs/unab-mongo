@@ -6,6 +6,7 @@ export const EstudianteSchema= new mongoose.Schema({
     Genero: String,
     FechaNacimiento: String,
     Carrera: String,
+    idMateria: [mongoose.Types.ObjectId]
     
     
     

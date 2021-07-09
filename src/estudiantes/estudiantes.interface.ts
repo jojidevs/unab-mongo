@@ -1,10 +1,15 @@
+import * as mongoose from 'mongoose';
+
 export interface Estudiantes {
 
   
-        Id?: number;
+        Id?: string;
         Nombre: string;
-        Direccion: string;
-        Telefono: number;
+        Genero: string;
+        FechaNacimiento: string;
+        Carrera: string;
+        idMateria: [mongoose.Types.ObjectId];
+        
       
       
     
